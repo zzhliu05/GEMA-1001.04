@@ -82,22 +82,32 @@ $$
 
 #### (8)
 
-令 $t=\sqrt[3]{x}$，则 $t\to-2$，且
+利用和差化积公式，
 
 $$
-\begin{aligned}
-\frac{\sqrt{1-x}-3}{2+\sqrt[3]{x}}
-&=\frac{\sqrt{1-t^3}-3}{t+2}\\
-&=\frac{(1-t^3)-9}{(t+2)(\sqrt{1-t^3}+3)}\\
-&=-\frac{t^2-2t+4}{\sqrt{1-t^3}+3}.
-\end{aligned}
+\frac{\sqrt3}{2}-\cos x
+=2\sin\left(\frac{x+\pi/6}{2}\right)
+  \sin\left(\frac{x-\pi/6}{2}\right),
+\qquad
+\sin(x-\pi/6)
+=2\sin\left(\frac{x-\pi/6}{2}\right)
+  \cos\left(\frac{x-\pi/6}{2}\right).
 $$
 
-因此
+因此，当 $x\ne\pi/6$ 时，
 
 $$
-\lim_{x\to-8}\frac{\sqrt{1-x}-3}{2+\sqrt[3]{x}}
-=-\frac{12}{6}=\boxed{-2}.
+=\frac{\sin(x-\pi/6)}{\sqrt3/2-\cos x}
+=\frac{\cos\left((x-\pi/6)/2\right)}
+       {\sin\left((x+\pi/6)/2\right)}.
+$$
+
+故
+
+$$
+\lim_{x\to\pi/6}\frac{\sin(x-\pi/6)}{\sqrt3/2-\cos x}
+=\frac{1}{\sin(\pi/6)}
+=\boxed{2}.
 $$
 
 ### 第 27 题
