@@ -81,12 +81,12 @@ $$
 
 ### 第 19 题
 
-#### (1) $y=a^x x^x$
+#### (1) $y=a^x x^a$
 
-对数求导：$\ln y=x\ln a+x\ln x$，因此
+其中 $a>0$ 为常数，且 $x>0$。对数求导：$\ln y=x\ln a+a\ln x$，因此
 
 $$
-\boxed{y'=a^x x^x(\ln a+\ln x+1)}\qquad(x>0).
+\boxed{y'=a^x x^a\left(\ln a+\frac{a}{x}\right)}\qquad(x>0).
 $$
 
 #### (2) $y=x\sin x\ln x$
